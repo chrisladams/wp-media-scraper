@@ -7,6 +7,8 @@ Author: Braid
 Author URI: https://wearebraid.com
 */
 
+if ( ! defined( 'ABSPATH' ) ) { exit; }
+
 function register_import_media_page(){
     add_submenu_page( 
     	'options-general.php',
